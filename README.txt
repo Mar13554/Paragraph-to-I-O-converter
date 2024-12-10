@@ -6,13 +6,8 @@ Currently the only option for the convertion is one-to-one (words)
 The code (as the name suggests) takes a paragraph and put out an I/O json file format of:
 {
   "1":{
-    "1":{
-    "Input":"Text"
-    "Output":"Text"
-    }
-    "2":{
-    ...
-    }
+    "1":{"Input":"Text","Output":"Text"}
+    "2":{...}
     ...
   }
 } 
